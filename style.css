@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+
+
+.centerMenu{
+    left: 50%;
+   transform: translateX(-50%);
+}
+
+
+.slide{
+    background-color: #234686;
+    height: 200vh;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 91%, 0 100%);
+}
+
+.mainpara{
+    background-image: url(img/mainImage.jpg);
+    width: 100%;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 0 91%);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.slidepara{
+    color: #fff;
+    margin-top:10rem;
+    margin-left: 2.5rem;
+    font-size: 3rem; 
+}
+
+.wel{
+    color: rgb(253, 55, 88);
+}
+
+.aboutHeding{
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.aboutContent{
+    color: #fff;
+    font-size: bold;
+}
+
+.more-btn{
+    color: yellow;
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+    text-decoration: none !important;
+}
+
+.more-btn:hover{
+    color: yellow;
+}
+
+.ingoHadding{
+    margin-right: 0.5rem;
+    color: #fff;
+}
+
+.serviceInfo{
+    text-align: center;
+}
+
+.serviceInfoPara{
+    font-size: 1.2rem;
+}
+
+.allService-btn{
+    text-decoration: none;
+    padding-bottom: 2rem;
+}
+
+.allService-btn:hover{
+    color: #fff;
+}
+
+.card-title{
+    padding: 2rem;
+}
+
+.card-btn{
+    text-decoration: none;
+    color: #000;
+}
+
+.card-btn:hover{
+    color: #000;
+}
+
+.technologyInfo{
+    background-color: rgb(232, 227, 231);
+    width: 100%;
+    height: 70vh;
+    clip-path: polygon(100% 0, 100% 98%, 0 100%, 0 19%);
+}
+
+.techCon{
+    padding-top: 10rem;
+}
+
+.techImg{
+    max-width: 100%;
+    height: 3.5rem;
+}
+
+.techImgMain{
+    max-width: 10rem;
+    height: 5rem;
+}
+
+.contactInfo{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(91, 215, 217);
+    text-align: center;
+    padding-top: 8rem;
+    clip-path: polygon(100% 23%, 100% 100%, 0 100%, 0 0);
+}
+
+.contact-btn{
+    text-decoration: none;
+    color: rgb(62, 49, 236);
+}
+
+.contact-btn:hover{
+    color: #fff;
+}
+
+.footer{
+    background-color: rgb(64, 64, 64);
+    color: #fff;
+}
+
+.footerAncher{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerAncher:hover{
+    color: #ffff;
+}
+
+.spanContact{
+    color: gold;
+}
+
+
+/* service heding style */
+
+.Hd{
+    color: #234686 !important;
+}
+
+/*############################## about section start here ################################################### */
+
+.container-flude{
+    background-image: url(img/about.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* IT Services section start here  */
+
+.ITMainImg{
+    background-image: url(img/ITService.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* App Development  section start here  */
+
+.appMainImg{
+    background-image: url(img/appdeve.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* eng development section start here  */
+
+.engMainImg{
+    background-image: url(img/eng.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* mobileMainImg section start here  */
+
+.mobileMainImg{
+    background-image: url(img/mobileAppDeve.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+/* itStaffMainImg section start here  */
+
+.itStaffMainImg{
+    background-image: url(img/ITStaff.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* sourcingImg section start here  */
+
+.sourcingImg{
+    background-image: url(img/outSourcing.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* sourcingImg section start here  */
+
+.softwareTestImg{
+    background-image: url(img/softwareTesting.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* webDeveImg section start here  */
+
+.webDeveImg{
+    background-image: url(img/webDeve.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* hadoopImg section start here  */
+
+.hadoopImg{
+    background-image: url(img/hadoop.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* computingImg section start here  */
+
+.computingImg{
+    background-image: url(img/cloud.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+/* learningImg section start here  */
+
+.learningImg{
+    background-image: url(img/machineLearning.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+/* devepsImg section start here  */
+
+.devepsImg{
+    background-image: url(img/deve.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* biImg section start here  */
+
+.biImg{
+    background-image: url(img/BI.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* bigDataImg section start here  */
+
+.bigDataImg{
+    background-image: url(img/bigData.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+/* ennterpriseImg section start here  */
+
+.ennterpriseImg{
+    background-image: url(img/enterprise.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* javaImg section start here  */
+
+.javaImg{
+    background-image: url(img/java.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* technologyImg section start here  */
+
+.technologyImg{
+    background-image: url(img/technology.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
+/* careerImg section start here  */
+
+.careerImg{
+    background-image: url(img/job.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+/* contactImg section start here  */
+
+.contactImg{
+    background-image: url(img/contact.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 56%);
+}
+
+
